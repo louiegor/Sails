@@ -21,18 +21,18 @@ module.exports = {
   add:function(req, res){
     res.view('add');
   },
-  // create:function(req, res){
-  //   var title = req.body.title;
-  //   var body = req.body.body;
-  //   console.log(title+', '+body)
+  create:function(req, res){
+    var title = req.body.title;
+    var body = req.body.body;
+    console.log(title+', '+body)
 
-  //   Article.create({title:title, content:body}).exec(function(err){
-  //     if(err){
-  //       res.send(500, {error:'Database error'});        
-  //     }
-  //     res.redirect('/article/list');
-  //   });
-  //}
+    Article.create({title:title, content:body}).exec(function(err){
+      if(err){
+        res.send(500, {error:'Database error'});        
+      }
+      res.redirect('/article/list');
+    });
+  }
   
 
 };
