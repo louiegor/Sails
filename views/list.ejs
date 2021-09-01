@@ -1,0 +1,24 @@
+
+<h1 class="display-4">Article</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+         
+            <th>Id</th>
+            <th>Title</th>
+            <th>#</th>
+        </tr>
+    </thead>
+    <tbody>
+              <% article.forEach(function(articl){%>
+            <tr>
+                <td>                    <%= articl.id%>                </td>
+                <td>             <%= articl.title%>     </td>
+                <td>                </td>
+            </tr>
+        <%})%>
+        
+    </tbody>
+      
+</table>
