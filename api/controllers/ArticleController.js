@@ -9,6 +9,8 @@
 
 //const Article = require("../models/Article");
 
+//const Article = require("../models/Article");
+
 
 
 module.exports = {
@@ -32,8 +34,17 @@ module.exports = {
       }
       res.redirect('/article/list');
     });
+  },
+  delete: function(req,res){
+    console.log(req)
+    // Article.destroy({id:req.params.id}).exec(function(err){
+    //   if(err){
+    //     res.send(500, {error:'Database error'});        
+    //   }
+    //   res.redirect('/article/list');
+    // });
+    res.redirect('/article/list');
+    return false;
   }
-  
-
 };
 

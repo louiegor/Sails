@@ -22,6 +22,7 @@ module.exports.routes = {
   '/': { view: 'pages/homepage' },
 
   'GET /lists': { controller:'ArticleController', action:'list' },
+  'GET /lists': { controller:'ArticleController', action:'list' },
   //'GET //article/list':  { action: 'entrance/view-signup' },
   'POST /foo/bar': { action: 'foo/bar' }
   //'GET /signup':             { action: 'entrance/view-signup' },

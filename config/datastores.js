@@ -51,10 +51,9 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
     adapter: 'sails-mongo',
-    //url: 'mongodb://root@localhost/testmongodb+srv://louiegor:58025802@cluster0.nyqlv.mongodb.net/test?retryWrites=true&w=majority'
-    // url: 'mongodb://louiegor:58025802@cluster0-shard-00-00.nyqlv.mongodb.net:27017,cluster0-shard-00-01.nyqlv.mongodb.net:27017,cluster0-shard-00-02.nyqlv.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-12tdj9-shard-0&authSource=admin&retryWrites=true&w=majority'
 
-    url: 'mongodb://louiegor:58025802@cluster0-shard-00-00.nyqlv.mongodb.net:27017,cluster0-shard-00-01.nyqlv.mongodb.net:27017,cluster0-shard-00-02.nyqlv.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12tdj9-shard-0&authSource=admin&retryWrites=true&w=majority'
+
+    url: 'mongodb://louiegor:<password>@cluster0-shard-00-00.nyqlv.mongodb.net:27017,cluster0-shard-00-01.nyqlv.mongodb.net:27017,cluster0-shard-00-02.nyqlv.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12tdj9-shard-0&authSource=admin&retryWrites=true&w=majority'
 
   },
 
