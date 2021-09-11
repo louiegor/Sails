@@ -23,8 +23,11 @@ module.exports.routes = {
 
   'GET /lists': { controller:'ArticleController', action:'list' },
   'GET /lists': { controller:'ArticleController', action:'list' },
+
+  //test
+  '/userb/get': 'UserbController.get'
   //'GET //article/list':  { action: 'entrance/view-signup' },
-  'POST /foo/bar': { action: 'foo/bar' }
+  //'POST /foo/bar': { action: 'foo/bar' }
   //'GET /signup':             { action: 'entrance/view-signup' },
 
   /***************************************************************************

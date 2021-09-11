@@ -53,7 +53,7 @@ module.exports.datastores = {
     adapter: 'sails-mongo',
 
 
-    url: 'mongodb://louiegor:<password>@cluster0-shard-00-00.nyqlv.mongodb.net:27017,cluster0-shard-00-01.nyqlv.mongodb.net:27017,cluster0-shard-00-02.nyqlv.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12tdj9-shard-0&authSource=admin&retryWrites=true&w=majority'
+    url: 'mongodb://louiegor:58025802@cluster0-shard-00-00.nyqlv.mongodb.net:27017,cluster0-shard-00-01.nyqlv.mongodb.net:27017,cluster0-shard-00-02.nyqlv.mongodb.net:27017/test?ssl=true&replicaSet=atlas-12tdj9-shard-0&authSource=admin&retryWrites=true&w=majority'
 
   },
 
